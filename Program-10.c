@@ -9,7 +9,7 @@ int main()
    int arr1[25], i,n;
    printf("Input the number of elements to store in the array :");
    scanf("%d",&n);
-   printf("Input elements of the array :\n",n);
+   printf("Input elements:",n);
    for(i=0;i<n;i++)
       {
 	   scanf(" %d",&arr1[i]);
@@ -22,4 +22,3 @@ int main()
 	  }
 	   return 0;
 }
-./a.out
