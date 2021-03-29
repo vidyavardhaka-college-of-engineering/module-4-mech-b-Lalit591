@@ -8,7 +8,9 @@ int main()
     struct book 
     { 
        //declare name and price
-        int pages; 
+      char name[100];
+      int price;
+      int pages; 
     }; 
     struct book b1;
      
